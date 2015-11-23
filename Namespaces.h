@@ -1,0 +1,14 @@
+#ifndef NAMESPACES_H
+#define NAMESPACES_H
+
+namespace State
+{
+	enum State {GET_PLAYERS, GET_BETS, START_HAND, PLAYING_HAND, DEALER_PLAYING, END_HAND, DISPLAY_RESULTS, EXIT};
+}
+
+namespace Keyboard
+{
+	enum Keyboard {H,S,P,D,G,ESCAPE,ENTER,Y,N,ONE,TWO,THREE,FOUR,FIVE,NONE};
+}
+
+#endif
